@@ -1,0 +1,26 @@
+<div class = "container">
+   <h1>Product Form</h1>
+   <form ngNoForm action="http://www.google.com" method="POST">
+      <div class = "form-group">
+         <label for = "productid">ID</label>
+         <input type = "text" class = "form-control" id = "productid" required
+            [(ngModel)] = "model.productid" name = "id">
+      </div>
+      
+      <div class = "form-group">
+         <label for = "name">Name</label>
+         <input type = "text" class = "form-control" id = "name"
+            [(ngModel)] = "model.productname" name = "name">
+      </div>
+      <div class = "form-group">
+         <label for = "name">Name</label>
+         <input type = "text" class = "form-control" id = "name"
+            [(ngModel)] = "model.productnames" name = "names">
+      </div>
+      <div class = "form-group">
+   
+         <input name="q" value="test">
+      <button type="submit">Search</button>
+   </div>
+   </form>
+</div>
